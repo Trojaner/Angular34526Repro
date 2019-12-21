@@ -19,4 +19,4 @@ Error: Can't resolve all parameters for Location: (?, ?).
     at CompileMetadataResolver._getProvidersMetadata (C:\Users\troja\source\repos\reprorepro\dist\server.js:72847:19)
     at C:\Users\troja\source\repos\repro\dist\server.js:72849:23
     at Array.forEach (<anonymous>)
-    ```
+```

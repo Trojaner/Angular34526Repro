@@ -20,10 +20,6 @@ export function getExpressApp() {
   app.set('view engine', 'html');
   app.set('views', DIST_FOLDER);
 
-  app.get('(/MerchantPanel|/MerchantPanel/**|/Account|/Account/**|/Logout|/Logout/**|/Products/Buy/**|/Products/License/**)', (req, res) => {
-    res.sendFile(join(DIST_FOLDER, 'index.html'));
-  });
-
   // Server static files from /browser
   app.get('*.*', express.static(DIST_FOLDER));
 

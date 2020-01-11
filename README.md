@@ -4,7 +4,7 @@ To reproduce the issue, run the following commands:
 npm install
 npm run-script build:full:production
 npm run-script serve:ssr
-[ Open http://localhost:4000 in browser]
+[ Open http://localhost:4000 in browser ]
 ```
 
 ```
